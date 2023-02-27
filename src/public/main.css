@@ -20,7 +20,8 @@ textarea {
     background-color: #4d4d4d;
     border: none;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 235, 235);
+    padding: 20px;
 }
 
 .enviar{
