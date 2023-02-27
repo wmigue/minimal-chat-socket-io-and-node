@@ -1,4 +1,4 @@
-# MI PROPIO CHAT
+# CHAT VANILLA
 Diseñando en VanillaJS.
 
 ##
