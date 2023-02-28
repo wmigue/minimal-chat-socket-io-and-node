@@ -18,7 +18,8 @@ const enviarAlRoom = (data) => {
 }
 
 socket.on('server:msgtoroom', data => {
-    conversation.innerHTML += `<br><b class="myName" style="${data.colorNombre} background-color:grey;">` + '[ ' + data.nombre + ' ]' + '</b>: ' + data.texto
+    const nuevoMensaje=`<br> <b class="myName" style="${data.colorNombre}">` + '[ ' + data.nombre + ' ]' + '</b>: ' + data.texto
+    conversation.innerHTML += nuevoMensaje
     conversation.scrollTop = conversation.scrollHeight
 })
 
