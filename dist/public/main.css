@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 3fr 0.5fr 0.5;
+    text-align: center;
+    height: 90vh;
+    margin: auto;
+}
+
+.row {
+    padding: 10px;
+}
+
+textarea {
+    width: 90%;
+    outline: none;
+    background-color: #4d4d4d;
+    border: none;
+    font-size: 20px;
+    color: rgb(255, 235, 235);
+    padding: 20px;
+}
+
+.enviar{
+   border: none;
+   outline: none;
+   padding: 20px;
+   background-color: rgb(130, 215, 255);
+}
+
+.conversation {
+    background-color: #4d4d4d;
+    color: rgb(255, 156, 35);
+    height: 300px;
+    overflow-y: scroll;
+    height: 400px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.row>.textarearow {
+    width: 100%;
+}
+
+.myName {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: rgb(251, 251, 251);
+    padding: 6px;
+    margin: 2px;
+}

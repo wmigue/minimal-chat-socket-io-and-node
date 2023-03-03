@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> socket.io y node </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="conversation">
+        </div>
+        <div class="row textarearow">
+            <textarea class="textarea" placeholder="escribe aqui... 😘👮‍♀️"></textarea>
+        </div>
+        <div class="row">
+            <button id="boton" class="enviar">Enviar!</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.min.js"></script> <!-- va antes del main.js -->
+    <script src='./main.js'></script>
+    <script src="./ui.js"></script>
+
+
+</body>
+
+</html>
